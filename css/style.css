@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.color-grey {
+  color: #4b4b4b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "IBM Plex Serif", serif;
+}
+
+.cv-header,
+.profile,
+.expirience,
+.company-name {
+  font-family: "IBM Plex Serif", serif;
+}
+
+.body-bg {
+  background-image: url("../images/30c38ca256550c58e41c615d9f28598c.jpg");
+  background-size: cover;
+}
+
+h2 {
+  text-align: center;
+}
+.cv {
+  margin-top: 50px;
+  border: 1px solid #4b4b4b;
+  box-shadow: 1px 1px 10px #000;
+}
+
+.cv-left {
+  background: #4b4b4b;
+  min-height: 30vh;
+  color: #fff;
+}
+
+.cv-right {
+  background: #fff;
+  min-height: 30vh;
+  color: #131313;
+}
+
+.cv-left a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cv-left a:hover {
+  text-decoration: none;
+}
+
+.cv-left ul {
+  line-height: 175%;
+  padding-left: 20%;
+}
+
+.cv-left ul.contacts-block {
+  list-style-type: none;
+  padding-left: 23%;
+}
+
+.cv-left .address {
+  font-style: italic;
+}
+
+article {
+  padding: 20px;
+}
+
+.company-name {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.company-name i {
+  font-size: 0.8rem;
+  letter-spacing: 4px;
+  font-family: Aria, sans-serif;
+  text-transform: none;
+}
+
+.job-title {
+  font-size: 1.4 rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.lines {
+  overflow: hidden;
+}
+.lines::before,
+.lines::after {
+  content: "";
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 3px;
+  background: #4b4b4b;
+  border: 1px solid #fff;
+  vertical-align: middle;
+}
+
+.lines::before {
+  margin-left: -100%;
+}
+
+.lines::after {
+  margin-right: -100%;
+}
+
+@media (max-width: 991.98px) {
+  .cv-left h1,
+  .cv-left h2,
+  .cv-left h3,
+  .cv-left h4 {
+    font-size: 1.3rem;
+  }
+  .cv-left ul {
+    line-height: 150%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .container {
+    margin-bottom: 0;
+  }
+  .cv {
+    margin-top: 0;
+  }
+}
+
+.photo-block img {
+  display: block;
+  max-width: 75%;
+  margin: 20px auto;
+}
